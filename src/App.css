@@ -1,0 +1,44 @@
+.ButtonBar {
+    width: 150px;
+    padding: 15px;
+    font-size: 20px;
+    background: linear-gradient(red, yellow, green);
+    border: 1px aqua solid;
+    border-radius: 10px;
+    color: #FF7575;
+    font-weight: bold;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.ButtonBar:hover {
+    background: aqua;
+    color: white;
+    font-weight: bold;
+    border: none;
+    background: linear-gradient(green, yellow,red);
+}
+
+.ButtonBar:last-child {
+    margin-right: 0;
+}
+
+.buttonBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imageBar {
+    padding: 10px 10px 0 10px;
+    width: 250px;
+    height: 200px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    opacity: 0.9;
+}
+
+.imageBar:hover{
+    opacity: 1;
+}
+
